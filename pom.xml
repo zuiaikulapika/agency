@@ -43,5 +43,6 @@
   <modules>
   	<module>eurake</module>
     <module>agencyclient</module>
+    <module>consumer</module>
   </modules>
 </project>
