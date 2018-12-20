@@ -15,11 +15,11 @@
     <version>1.5.4.RELEASE</version>
     <relativePath/>
   </parent>
- <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
-  </properties>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
 
   <dependencies>
     <dependency>
@@ -44,5 +44,6 @@
   	<module>eurake</module>
     <module>agencyclient</module>
     <module>consumer</module>
+    <module>agencydao</module>
   </modules>
 </project>
